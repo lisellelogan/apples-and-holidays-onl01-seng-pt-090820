@@ -65,6 +65,8 @@ def all_holidays_with_bbq(holiday_hash)
     event.map do |occasions, components|
       if components.include?("BBQ")
         occasions
+      else
+        occasions.reject?(nil)
       end
     end
   end
