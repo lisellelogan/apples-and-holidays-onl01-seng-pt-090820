@@ -70,10 +70,3 @@ def all_holidays_with_bbq(holiday_hash)
     end
   end
 end
-  #iterate through the hash
-  #in each hash, check if hashes value includes BBQ
-  #if it includes BBQ, add that hash key to empty array
-  #holiday_hash.each do |seasons, event|
-  #  event.map {|occasion, components| components.include?("BBQ")}
-  #end
-#end
