@@ -66,7 +66,7 @@ def all_holidays_with_bbq(holiday_hash)
       if components.include?("BBQ")
         occasions
       else
-        occasions.reject?(nil)
+        occasions.compact
       end
     end
   end
