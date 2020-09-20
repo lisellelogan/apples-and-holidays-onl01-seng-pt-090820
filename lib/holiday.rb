@@ -62,7 +62,13 @@ def all_supplies_in_holidays(holiday_hash)
 end
 
 def all_holidays_with_bbq(holiday_hash)
-
+  holiday_hash.map do |seasons, event|
+    event.map do |occasions, components|
+      if components.include?("BBQ")
+        occasions
+      end
+    end
+  end
 end
   #iterate through the hash
   #in each hash, check if hashes value includes BBQ
