@@ -61,9 +61,9 @@ def all_supplies_in_holidays(holiday_hash)
   end
 end
 
-end
+def all_holidays_with_bbq(holiday_hash)
 
-#def all_holidays_with_bbq(holiday_hash)
+end
   #iterate through the hash
   #in each hash, check if hashes value includes BBQ
   #if it includes BBQ, add that hash key to empty array
